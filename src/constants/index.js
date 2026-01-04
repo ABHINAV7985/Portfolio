@@ -147,43 +147,45 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+ {
+  id: 6,
+  title: "Algorithm Visualizer & Time Complexity Analyzer",
+  description:
+    "An interactive educational platform that visualizes algorithms and analyzes their time and space complexity using real execution data.",
+  subDescription: [
+    "Developed an interactive web application to visualize sorting, searching, and graph algorithms with step-by-step animations.",
+    "Implemented dynamic algorithm visualizations using React.js and D3.js for clear conceptual understanding.",
+    "Built a backend service using Node.js and Python (Flask) to execute algorithms and collect performance metrics.",
+    "Compared theoretical time and space complexity with actual runtime results across multiple input sizes.",
+    "Enabled users to modify input data and observe real-time changes in algorithm behavior and complexity graphs.",
+    "Designed a responsive and intuitive UI for students preparing for competitive exams and technical interviews.",
+  ],
+  href: "",
+  logo: "",
+  image: "/assets/projects/algorithm-visualizer.jpg",
+  tags: [
+    {
+      id: 1,
+      name: "React.js",
+      path: "/assets/logos/react.svg",
+    },
+    {
+      id: 3,
+      name: "D3.js",
+      path: "/assets/logos/d3.svg",
+    },
+    {
+      id: 4,
+      name: "Python",
+      path: "/assets/logos/python.svg",
+    },
+    {
+      id: 5,
+      name: "Flask",
+      path: "/assets/logos/flask.svg",
+    },
+  ],
+}
 ];
 
 export const mySocials = [
