@@ -1,41 +1,44 @@
 export const myProjects = [
-  {
-    id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+ {
+  id: 1,
+  title: "E-commerce Platform",
+  description:
+    "A full-stack e-commerce platform that enables users to browse, order, and receive products locally while sourcing items from global marketplaces.",
+  subDescription: [
+    "Built a scalable full-stack e-commerce application using Node.js, Express.js, and MongoDB.",
+    "Designed RESTful APIs for product management, user accounts, orders, and cart functionality.",
+    "Implemented secure authentication using phone number and OTP-based verification.",
+    "Developed a responsive and user-friendly frontend using HTML, CSS, and JavaScript.",
+    "Integrated product search, category-based filtering, and price-based sorting.",
+    "Added order tracking, address management, and admin-side product control features.",
+  ],
+  href: "",
+  logo: "",
+  image: "/assets/projects/accessories.jpg",
+  tags: [
+    {
+      id: 1,
+      name: "JavaScript",
+      path: "/assets/logos/javascript.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "/assets/logos/nodejs.svg",
+    },
+    {
+      id: 3,
+      name: "Express.js",
+      path: "/assets/logos/express.svg",
+    },
+    {
+      id: 4,
+      name: "MongoDB",
+      path: "/assets/logos/mongodb.svg",
+    }, 
+  ],
+}
+,
   {
     id: 2,
     title: " Strategic Expert Selection Portal",
