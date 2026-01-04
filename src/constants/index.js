@@ -162,7 +162,7 @@ export const myProjects = [
   ],
   href: "",
   logo: "",
-  image: "/assets/projects/algorithm-visualizer.jpg",
+  // image: "/assets/projects/algorithm-visualizer.jpg",
   tags: [
     {
       id: 1,
